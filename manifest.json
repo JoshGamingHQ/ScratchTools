@@ -1,19 +1,19 @@
 {
-  "name": "ScratchTools",
-  "short_name": "ScratchTools",
+  "name": "ScratchTools +",
+  "short_name": "ScratchToolsPlus",
   "manifest_version": 3,
   "version": "2.19.1",
   "version_name": "2.19.1",
-  "description": "Great tools to make Scratching easier!",
-  "author": "rgantzos",
+  "description": "My custom fork of ScratchTools.",
+  "author": "rgantzos, JGHQ",
   "background": {
     "service_worker": "/extras/background.js"
   },
   "permissions": ["scripting", "storage", "alarms"],
   "action": {
-    "default_icon": "/extras/icon48.png",
+    "default_icon": "/extras/icon3.png",
     "default_popup": "/extras/popup.html",
-    "default_title": "ScratchTools"
+    "default_title": "ScratchToolsPlus"
   },
   "icons": {
     "16": "/extras/icon16.png",
